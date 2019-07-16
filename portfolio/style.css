@@ -1,0 +1,20 @@
+body{background-color: white; 
+                               }
+.sidebar{background-image: url(/portfolio/image/background_sidebar.jpg)}   
+
+h3::before{content: url(/portfolio/image/web.png);
+    margin: 0 10px 0 0;
+    float: left;} 
+
+div.col-6:nth-child(2) > h3:nth-child(1)::before{
+    content: url(/portfolio/image/infographie.png);
+}    
+
+div.col-6:nth-child(3) > h3:nth-child(1)::before{content: url(/portfolio/image/video.png)
+}           
+
+div.col-6:nth-child(4) > h3:nth-child(1)::before{content: url(/portfolio/image/paquet.png)
+}
+ul{list-style:none ;}
+.projet li{display: inline;
+            margin: 10px;     }

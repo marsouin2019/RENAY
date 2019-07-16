@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i');
+
+
+
+body {
+  font: 400 1.6rem/1.4 'Lato', sans-serif;
+  background-color:#143c50;
+ 
+}
+.black{
+    color:black;
+}
+h2,h3{
+    color:#f39c12;
+}
+h1>{color:white;
+  size: 48px;
+}
+.container{
+  display:grid;
+  grid-template-columns:auto auto auto;
+  grid-gap:20px;
+  max-width:960px;
+  margin: 0 auto;
+  padding:0 10px;
+}
+
+main{background-color: white;
+}
+.loulou{color: white;
+ 
+}
+a{text-decoration: none;
+  color:white;
+}
+.menu{list-style-type: none;
+  font-size: 20px;
+  text-align: right;
+
+}
+li{display: inline;
+}
+.boum{color: #f39c12
+}
+.menu2{list-style-type: none;
+       font-size: 20px;
+      text-align-last: right;}

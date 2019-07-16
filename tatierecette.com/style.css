@@ -1,0 +1,78 @@
+h1{ font-size: 60px;
+   text-align: center;
+   text-transform: uppercase;   
+   text-decoration:underline; 
+   color:rgb(88, 87, 87);                }
+
+   h2{
+    text-transform: uppercase; 
+    text-decoration:underline;
+    color:rgb(88, 87, 87);
+    text-align: center;                      }
+   
+    body{color: grey;
+    background-color:#e2a789;
+    font-size: 18px;
+    width: 980px;
+    margin: auto auto ;   }
+p{font-size: 18px;
+  color:rgb(88, 87, 87);
+padding: 10px; }     
+                                     
+.logo img{width: 100px;
+        height: 100px;}
+
+.search{width:780px;
+ }                   
+
+ .compte img{width:40px;
+             height:40px;
+                        }
+ 
+header{width:980;
+       height:150;   
+       display: flex;} 
+  
+.photo{width: 200px; 
+        height:200px;
+        margin-bottom:50px;              }
+
+nav>ul{display:flex;
+       width:980px; 
+                       }
+nav>ul>li{width:196px;  }
+
+article{display: flex;
+        margin-bottom:80px;                }
+
+article:last-child{flex-direction: column;
+                                         } 
+
+main{padding:20px; }
+
+article:last-child>ul{position:absolute;
+                       margin-left:200px; }
+
+footer{width:980px;
+       display: flex;
+       flex-wrap: wrap; }
+
+.liste2>ul>li{width:490px;
+             height:50px ;
+             background-color: grey;
+             display: inline;
+              }
+     
+address{width:490px;
+        height:50px;
+        background-color:grey; }  
+        footer>nav{
+          width:490px;
+          height:150px;       }
+          
+        footer>address{
+          width:490px;
+          height:150px; 
+        }
+ 
+

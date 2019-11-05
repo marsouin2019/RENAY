@@ -1,0 +1,124 @@
+.carreJ{
+  margin-top: 80px;
+background-color: #f3db00;
+width: 350px;
+height: 175px;
+border: #000 solid 3px;
+
+
+  }
+
+h1{
+  margin-top: 30%;
+ margin-left: 12px;
+}
+
+/*Buttons*/
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  height: 60px;
+  width: 150px;
+ margin-top: 100px;
+ margin-bottom: 180px;
+
+
+}
+
+.chx{
+  padding-top: 20px;
+  border: solid 2px #000;
+}
+
+#orange{
+background-color:#f74c00 ;
+padding-left: 25px;
+margin-left: 90px;
+
+
+}
+#black{
+background-color: #000;
+color: #fff;
+padding-left: 13px;
+}
+
+#purple{
+background-color:#8b58e4 ;
+padding-left: 36px;
+}
+
+#cyan{
+background-color: #00bcd4;
+color: #fff;
+padding-left: 36px;
+}
+
+#yellow{
+background-color: #e3d135;
+padding-left: 60px;}
+
+#red{
+background-color: #ca0707;
+color: #fff;
+padding-left: 22px;
+}
+
+.mada{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+#spa> a > img, #ordi > a>img{
+  width: 420px;
+  height: 250px;
+  
+}
+
+
+.select{
+  padding-bottom: 558px;
+}
+
+#spa{
+  
+  position: relative;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */  
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+#ordi{
+  
+  position: relative;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */  
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {top: 0px;}
+  to {top: 200px; }
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px; }
+}

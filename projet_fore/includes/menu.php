@@ -72,12 +72,7 @@
 <!-- Division contenu -->
 
 <div class="container-fluid contenU">
-  <div class="row" >
-    <div class="col-12" >
-      <img class="imgParcours" src="http://www.ofii.fr/sites/default/files/inline-images/le-parcours-d-integration-rep.png" alt="" srcset="">
-          </div>
-
-  </div>
+  
   <div class="row">
     <div class="col-6">
       <div class="contentL firstB" > 

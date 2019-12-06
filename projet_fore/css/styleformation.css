@@ -1,5 +1,6 @@
 .imC{
     height: 250px;
+    width: 280px;  
     margin-left: 25px;
     border:solid 2px #22004b;
     }
@@ -8,7 +9,7 @@
 .btn-purple{
   background-color: #1e043d;
   color: #fff;
-  margin-left: 65px;
+  margin-left: 102px;
 }
 
 .btn-purple:hover{
@@ -19,11 +20,15 @@
   float: right;
   margin-top:200px;
   margin-left:-30px;
-  margin-right:47px;
+  margin-right:85px;
+  height: 180px;
+  width: 220px;
 }
 .img2{
   float: right;
   margin-top: 88px;
+  height: 180px;
+  width: 220px;
 }
 
 .contC{

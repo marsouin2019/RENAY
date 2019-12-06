@@ -1,41 +1,40 @@
 <?php
-// connexion base de donnees dweb
+//connexion base de données dweb
 
-// mysqli_connect()   // connexion database
-// mysqli_query()     // requete sql 
-// mysqli_fetch_assoc()  // stocker resultat requete
+//msqli_connect()  connection data base
+//msqli_query()    executer une requete sql
+//msqli_fetch_assoc()  stocker le resultat
 
-
-// informations sur la connexion
+//information sur la connexion 
 /*
-- localhost ou 127.0.0.1 ou bien google.com
-- user de connexion
-- password de connexion
-- database
-
+  localhost ou 137.0.0.1 ou bien google.com 
+  user de connexion
+  password de connexion
+  database
+  
 */
 
-// definir les constantes de connexion
+//definir les constanteINSERT INTO logins SET email='emlyn@hotmail.fr',idpersonne='1';
+
 define("SERVEUR", "localhost");
 define("USER", "marsouin");
-define("PASSWORD", "mrsam");
+define("PASSWORD", "mRSMA");
 define("DATABASE", "dweb");
 
 
-// connexion database
-$mysqli = mysqli_connect(SERVEUR, USER, PASSWORD, DATABASE);
+//connexion database
+$mysqli = mysqli_connect(SERVEUR,USER,PASSWORD,DATABASE);
 
-// verification connexion brut
-//print_r($mysqli);
+//print_r($mysqli);  
 
-
-// afficher erreur de connexion
-if (!$mysqli) {
-    echo "Erreur : Impossible de se connecter à MySQL." . PHP_EOL;
-    echo "Errno de débogage : " . mysqli_connect_errno() . PHP_EOL;
-    echo "Erreur de débogage : " . mysqli_connect_error() . PHP_EOL;
-    exit;
+//si je ne suis pas connecter affiche moi l'erreur
+if(!$mysqli)
+{
+  echo "Erreur :impossible de se connecter à mysql.". PHP_EOL;
+  echo "Errno de débogage:". mysqli_connect_errno(). PHP_EOL;
+  echo "Erreur de débogage:". mysqli_connect_error(). PHP_EOL; 
+  exit;
 }
 
-// afficher message de connexion reussie
+//afficher message de connexion reussi 
 //echo "connexion ok";

@@ -13,7 +13,7 @@
           <div class="carousel-item active"> 
           <img src="https://www.vosges.fr/Portals/1/xBlog/uploads/2018/6/11/RandoFORE.jpg" class="d-block w-100" alt="...">
            <div class="carousel-caption d-none d-md-block">
-             <h5>First slide label</h5>
+             <h6> <strong>> First slide label </strong</h6>
              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
            </div>
           </div>
@@ -21,7 +21,7 @@
           <div class="carousel-item">
              <img src="https://www.vosges.fr/Portals/1/xBlog/uploads/2018/6/11/RandoFORE.jpg" class="d-block w-100" alt="...">
            <div class="carousel-caption d-none d-md-block">
-             <h5>Second slide label</h5>
+             <h6> <strong>Second slide label</strong> </h6>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
            </div>
           </div>
@@ -29,7 +29,7 @@
           <div class="carousel-item">
              <img src="https://www.vosges.fr/Portals/1/xBlog/uploads/2018/6/11/RandoFORE.jpg" class="d-block w-100" alt="...">
            <div class="carousel-caption d-none d-md-block">
-             <h5>Third slide label</h5>
+             <h6> <strong>Third slide label</strong> </h6>
              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
            </div>
           </div>

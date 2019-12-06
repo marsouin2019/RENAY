@@ -52,7 +52,7 @@
     <div class="col-5">
         
       <div class="contentR" >
-        <h4> <strong> Parcours A2 </strong> </h4>
+        <h5> <strong> Parcours A2 </strong> </h5>
         <br>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ullam reiciendis dolore possimus ipsam architecto cum fugit mollitia, eius tempora nam quo nihil distinctio exercitationem doloremque asperiores quibusdam cupiditate blanditiis.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta itaque sequi debitis placeat. Perspiciatis similique laboriosam obcaecati aperiam temporibus facilis porro, mollitia corporis reiciendis cumque consectetur in delectus saepe provident.</p>
@@ -84,7 +84,8 @@
 
     <div class="col-5">
       <div class="contentR" >
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem minus earum magnam exercitationem nam veritatis blanditiis! Iure reiciendis, veritatis nostrum repellat suscipit voluptatum quidem tenetur, voluptate iste, delectus enim magnam?</p>
+       <h5><strong>Parcours B2</strong></h5>
+       <br>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ullam reiciendis dolore possimus ipsam architecto cum fugit mollitia, eius tempora nam quo nihil distinctio exercitationem doloremque asperiores quibusdam cupiditate blanditiis.</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta itaque sequi debitis placeat. Perspiciatis similique laboriosam obcaecati aperiam temporibus facilis porro, mollitia corporis reiciendis cumque consectetur in delectus saepe provident.</p>
 
